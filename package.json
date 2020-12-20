@@ -1,0 +1,22 @@
+{
+  "name": "sc_external",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akisazaki/sc_external.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akisazaki/sc_external/issues"
+  },
+  "homepage": "https://github.com/Akisazaki/sc_external#readme",
+  "dependencies": {
+    "static-server": "^2.2.1"
+  }
+}
