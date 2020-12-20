@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js",
-    "start_cluster": "pm2 start pm2.config.js"
+    "start": "pm2 start --name sc_external index.js",
+    "start_cluster": "pm2 start pm2.config.js",
+    "stop": "pm2 stop sc_external"
   },
   "repository": {
     "type": "git",
